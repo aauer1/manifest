@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/aauer1/" name="socialnode" />
+  <remote fetch="git://github.com/allwinner-dev-team/" name="allwinner" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="android_external_cedarx" path="external/cedarx" remote="allwinner" revision="master" />
+  <project name="android_hardware_realtek" path="hardware/realtek" remote="allwinner" revision="jellybean" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="allwinner" revision="allwinner-jb" />
+  <project name="android_kernel_allwinner_socialnode" path="kernel/allwinner/socialnode" remote="socialnode" revision="jb_sunxi-3.0" />
+  <project name="android_device_allwinner_common-sun5i" path="device/allwinner/common-sun5i" remote="socialnode" revision="master" />
+  <project name="android_device_allwinner_socialnode" path="device/allwinner/socialnode" remote="socialnode" revision="master" />
+</manifest>
